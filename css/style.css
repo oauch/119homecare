@@ -181,15 +181,17 @@ main a.Home {
 }
 
 .sv_section1{
-  border : 5px solid #2e7d32;
   margin-left: 5%;
   margin-right: 5%;
 }
+
 .sv_section2{
   border : 5px solid #2e7d32;
   margin-left: 5%;
   margin-right: 5%;
 }
+
+
 .sv_section2 .service2{
   text-align: center;
   text-decoration: overline;
@@ -213,14 +215,14 @@ main a.Home {
 .sv_section2 .service2_2 .service_img2_2{
   margin-top: 50px;
 }
+
 .price2{
   margin-top: 50px;
 }
 table{
-  width: 90%;
+  width: 98%;
   margin: 0 auto;
   border-collapse : collapse;
-  font-size: 25px;
 }
 th{
   border: 3px solid #4caf50;
@@ -234,6 +236,24 @@ td{
   margin-bottom: 20px;
 }
 
+
+
+.pay{
+  font-size: 25px;
+}
+.pay div{
+  text-align:center;
+  font-weight: bold;
+  margin:20px;
+}
+
+table{
+  font-size: 20px;
+}
+
+td{
+  margin: 10px;
+}
 
 
 /* 문의사항 */
@@ -361,6 +381,9 @@ td{
   #header .header_tit h4{
     padding-left: 4px;
     padding-right: 4px;
+  }
+  table{
+    font-size: 15px;
   }
 }
 @media (max-width: 425px){
