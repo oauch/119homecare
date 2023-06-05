@@ -340,8 +340,8 @@ table{
 @media (max-width: 1240px){
   #header{width: 100%;}
   .sv_section1 .service1_2{margin: 5% 5% 5% 5%;}
-  .service1_2 img{width: 100%;}
-  .service2_2 img{width: 100%;}
+  .service1_2 img{width: 95%;}
+  .service2_2 img{width: 95%;}
 }
 /* 화면크기 0 ~ 1024px */
 @media (max-width: 1024px){
@@ -380,7 +380,7 @@ table{
     padding-right: 4px;
   }
   table{
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 @media (max-width: 425px){
