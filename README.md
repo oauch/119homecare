@@ -3,3 +3,16 @@
 <br>
 > 예전에 올렸던거 사진만 더 추가하고, 몇가지 수정상항만 고쳐서 다시 올림. <br>
 홈페이지 : https://oauch.github.io/119homecare/
+
+## 실행
+
+```bash
+yarn install
+yarn dev
+```
+
+## 빌드
+
+```bash
+yarn build
+```
