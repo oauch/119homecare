@@ -122,64 +122,6 @@ const Container = styled.div`
   }
 `;
 
-const HeroSection = styled(motion.section)`
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 20px;
-  padding: 30px;
-  margin-bottom: 28px;
-
-  @media (max-width: 960px) {
-    grid-template-columns: 1fr;
-  }
-
-  @media (max-width: 768px) {
-    gap: 16px;
-    padding: 18px;
-  }
-`;
-
-const HeroCopy = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-`;
-
-const MainTitle = styled.h1`
-  font-size: clamp(2rem, 4vw, 3.4rem);
-  line-height: 1.16;
-  letter-spacing: -0.04em;
-`;
-
-const Subtitle = styled.p`
-  max-width: 680px;
-`;
-
-const HeroStats = styled.div`
-  display: grid;
-  gap: 14px;
-`;
-
-const StatCard = styled.div`
-  padding: 20px 22px;
-  border-radius: 24px;
-  background: rgba(255, 255, 255, 0.78);
-  border: 1px solid rgba(17, 24, 39, 0.06);
-`;
-
-const StatLabel = styled.div`
-  font-size: 0.88rem;
-  color: var(--text-soft);
-  margin-bottom: 8px;
-`;
-
-const StatValue = styled.div`
-  font-size: 1.04rem;
-  font-weight: 800;
-  color: var(--text);
-  letter-spacing: -0.02em;
-`;
-
 const AdvantagesGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

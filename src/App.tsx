@@ -9,7 +9,7 @@ import QnAPage from '@pages/QnAPage'
 
 function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <div className="app-shell">
         <div className="ambient-orb ambient-orb-left" />
         <div className="ambient-orb ambient-orb-right" />
